@@ -10,10 +10,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9daeed9-e972-4988-9ff2-46675cf87243" name="Changes" comment="Homework for a lesson 22">
+      <change afterPath="$PROJECT_DIR$/src/main/HW23/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/HW23/StudentListInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/HW23/ViewStudentListServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/HW23/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/HW23/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index_HW23.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/homework/lesson22/DateTimeNowServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/HW22/DateTimeNowServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/homework/lesson22/DayOfWeekAndYearServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/HW22/DayOfWeekAndYearServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,15 +28,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Homework/lesson23" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -66,8 +70,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/dmitrylobov/Documents/TeachMeSkills/Projects/IdeaProjects/TestSevletOnMac/untitled/target/classes/main",
-    "project.structure.last.edited": "Libraries",
+    "last_opened_file_path": "/Users/dmitrylobov/Documents/TeachMeSkills/Projects/IdeaProjects/TestSevletOnMac/untitled/src/main/HW23",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.3277405"
   },
@@ -79,6 +83,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/HW23" />
       <recent name="$PROJECT_DIR$/target/classes/main" />
     </key>
   </component>
