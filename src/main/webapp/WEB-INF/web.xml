@@ -5,7 +5,7 @@
 <web-app>
     <servlet>
         <servlet-name>DateTimeNow</servlet-name>
-        <servlet-class>main.homework.lesson22.DateTimeNowServlet</servlet-class>
+        <servlet-class>main.HW22.DateTimeNowServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>DateTimeNow</servlet-name>

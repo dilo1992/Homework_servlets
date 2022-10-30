@@ -1,4 +1,4 @@
-package main.homework.lesson22;
+package main.HW22;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServlet;

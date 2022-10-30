@@ -1,4 +1,4 @@
-package main.homework.lesson22;
+package main.HW22;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -20,9 +20,9 @@ public class DayOfWeekAndYearServlet extends HttpServlet {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yyyy");
         LocalDate date = LocalDate.parse(enteredDate, formatter);
         PrintWriter writer = resp.getWriter();
-        writer.println("You are enter date: " + date.format(formatter));
-        writer.println("\nEntered date is a day of the year: " + date.getDayOfYear());
-        writer.println("\nEntered date is a day of the week: " + date.getDayOfWeek());
+        writer.println("You are enter date: " + date.format(formatter)+"<br/>");
+        writer.println("\nEntered date is a day of the year: " + date.getDayOfYear()+"<br>/");
+        writer.println("\nEntered date is a day of the week: " + date.getDayOfWeek()+"<br/>");
         writer.close();
     }
 }
