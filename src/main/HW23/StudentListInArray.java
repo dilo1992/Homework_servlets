@@ -28,7 +28,7 @@ public class StudentListInArray {
             while (resultSet.next()) {
                 studentArrayList.add(new Student(resultSet.getInt("id"),
                         resultSet.getString("firstName"), resultSet.getString("lastName")));
-            strings.add(""+resultSet.getInt("id")+"\t"+
+            strings.add(resultSet.getInt("id")+"\t"+
                     resultSet.getString("firstName")+"\t\t"+ resultSet.getString("lastName"));
             }
             connection.close();

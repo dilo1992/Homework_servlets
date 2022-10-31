@@ -17,14 +17,16 @@ public class ViewStudentListServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
         resp.setContentType("text/html");
+        req.getRequestDispatcher("HW23.jsp").forward(req, resp);
         PrintWriter writer = resp.getWriter();
         try {
             ArrayList<String> student = StudentListInArray.showStudentList();
-            String s = student.get(0);
-//            for (int i = 0; i < student.size(); i++) {
-//                writer.println(student.get(i) + "<br/>");
-//            }
-            writer.println(s+"<br/>");
+
+            for (int i = 0; i < student.size(); i++) {
+                String s = student.get(i);
+                writer.println(s + "</br>");
+            }
+//            writer.println(s+"<br/>");
         } catch (SQLException | ClassNotFoundException e) {
             e.printStackTrace();
         }

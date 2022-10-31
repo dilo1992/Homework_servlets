@@ -9,15 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9daeed9-e972-4988-9ff2-46675cf87243" name="Changes" comment="Homework for a lesson 22">
-      <change afterPath="$PROJECT_DIR$/src/main/HW23/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/HW23/StudentListInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/HW23/ViewStudentListServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/HW23/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/HW23/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index_HW23.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e9daeed9-e972-4988-9ff2-46675cf87243" name="Changes" comment="Homework for a lesson 23 (in progress)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/HW23/StudentListInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/HW23/StudentListInArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/HW23/ViewStudentListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/HW23/ViewStudentListServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/HW23/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/HW23/HW23.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +68,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/Users/dmitrylobov/Documents/TeachMeSkills/Projects/IdeaProjects/TestSevletOnMac/untitled/src/main/HW23",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.3277405"
   },
@@ -190,6 +187,7 @@
       <workItem from="1666983164598" duration="24416000" />
       <workItem from="1667072690773" duration="6510000" />
       <workItem from="1667144240796" duration="4830000" />
+      <workItem from="1667233213747" duration="1465000" />
     </task>
     <task id="LOCAL-00001" summary="Homework for a lesson 22">
       <created>1667079052886</created>
@@ -205,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667145325273</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Homework for a lesson 23 (in progress)">
+      <created>1667158594552</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667158594552</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +229,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Homework for a lesson 22" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework for a lesson 22" />
+    <MESSAGE value="Homework for a lesson 23 (in progress)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework for a lesson 23 (in progress)" />
   </component>
 </project>
