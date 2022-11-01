@@ -1,5 +1,6 @@
 package main.HW23;
 
+import jakarta.servlet.ServletConfig;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -13,11 +14,12 @@ import java.util.ArrayList;
 
 @WebServlet("/StudentList")
 public class ViewStudentListServlet extends HttpServlet {
+
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
+        //req.getRequestDispatcher("HW23.jsp").forward(req,resp);
         resp.setContentType("text/html");
-        req.getRequestDispatcher("HW23.jsp").forward(req, resp);
         PrintWriter writer = resp.getWriter();
         try {
             ArrayList<String> student = StudentListInArray.showStudentList();
