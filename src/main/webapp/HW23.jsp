@@ -6,7 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <body>
-<h2>Student List</h2>
+<h2>com.lobov.Student List</h2>
 <table>
     <tr>
         <th>id</th>

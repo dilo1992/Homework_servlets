@@ -1,6 +1,5 @@
-package main.HW23;
+package com.lobov;
 
-import jakarta.servlet.ServletConfig;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -12,7 +11,6 @@ import java.io.PrintWriter;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-@WebServlet("/StudentList")
 public class ViewStudentListServlet extends HttpServlet {
 
     @Override

@@ -1,4 +1,4 @@
-package main.HW23;
+package com.lobov;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -10,7 +10,6 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.concurrent.atomic.AtomicInteger;
 
-@WebServlet("/counter")
 public class CounterServlet extends HttpServlet {
     private final AtomicInteger counter = new AtomicInteger(0);
 

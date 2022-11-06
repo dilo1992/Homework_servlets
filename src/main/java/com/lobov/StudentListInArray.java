@@ -1,4 +1,4 @@
-package main.HW23;
+package com.lobov;
 
 import java.sql.*;
 import java.util.ArrayList;

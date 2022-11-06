@@ -9,11 +9,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9daeed9-e972-4988-9ff2-46675cf87243" name="Changes" comment="Homework for a lesson 23 (in progress)">
-      <change afterPath="$PROJECT_DIR$/src/main/HW24/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/HW24/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/HW24/styles_HW24.css" afterDir="false" />
+    <list default="true" id="e9daeed9-e972-4988-9ff2-46675cf87243" name="Changes" comment="Homework for a lesson 24">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lobov/LoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lobov/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/styles_HW24.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/test.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/HW22/DateTimeNowServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lobov/DateTimeNowServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/HW22/DayOfWeekAndYearServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lobov/DayOfWeekAndYearServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/HW23/CounterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lobov/CounterServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/HW23/HW23.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/HW23.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/HW23/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lobov/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/HW23/StudentListInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lobov/StudentListInArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/HW23/ViewStudentListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lobov/ViewStudentListServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/HW23/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/HW24/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/HW24/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/HW24/styles_HW24.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,10 +41,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
-        <option value="Class" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -40,7 +58,7 @@
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
-    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_WARNINGS" value="true" />
     <option name="FILTER_INFO" value="true" />
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
@@ -67,11 +85,12 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/dmitrylobov/Documents/TeachMeSkills/Projects/IdeaProjects/TestSevletOnMac/untitled/src/main/HW23",
+    "last_opened_file_path": "/Users/dmitrylobov/Documents/TeachMeSkills/Projects/IdeaProjects/TestSevletOnMac/untitled/src/main/webapp",
     "list.type.of.created.stylesheet": "CSS",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.3277405"
+    "project.structure.side.proportion": "0.3277405",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -81,12 +100,24 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
       <recent name="$PROJECT_DIR$/src/main/HW23" />
       <recent name="$PROJECT_DIR$/target/classes/main" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/stat" />
+      <recent name="$PROJECT_DIR$/src/main/HW24" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 10.1.1" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.1" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -190,6 +221,9 @@
       <workItem from="1667144240796" duration="4830000" />
       <workItem from="1667233213747" duration="1490000" />
       <workItem from="1667325473457" duration="2829000" />
+      <workItem from="1667415199954" duration="880000" />
+      <workItem from="1667416172726" duration="6324000" />
+      <workItem from="1667579915513" duration="42219000" />
     </task>
     <task id="LOCAL-00001" summary="Homework for a lesson 22">
       <created>1667079052886</created>
@@ -219,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667234692894</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Homework for a lesson 24">
+      <created>1667335450700</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667335450700</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,6 +280,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Homework for a lesson 22" />
     <MESSAGE value="Homework for a lesson 23 (in progress)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework for a lesson 23 (in progress)" />
+    <MESSAGE value="Homework for a lesson 24" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework for a lesson 24" />
   </component>
 </project>
