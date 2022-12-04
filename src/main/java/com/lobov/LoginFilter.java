@@ -1,6 +1,9 @@
 package com.lobov;
 
 import jakarta.servlet.*;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpSession;
 
 import java.io.IOException;
 
@@ -13,9 +16,10 @@ public class LoginFilter implements Filter {
 
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
-        String login = (String) servletRequest.getServletContext().getAttribute("login");
-        if (login != null) {
-            servletRequest.getRequestDispatcher("success.html").forward(servletRequest, servletResponse);
+        HttpServletRequest req = (HttpServletRequest) servletRequest;
+        HttpSession session = req.getSession(false);
+        String login = (String) session.getAttribute("login");
+        if (login != null && session != null) {
             filterChain.doFilter(servletRequest, servletResponse);
         } else {
             servletRequest.getRequestDispatcher("error.html").forward(servletRequest, servletResponse);

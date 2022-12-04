@@ -2,6 +2,7 @@ package com.lobov;
 
 import java.sql.*;
 import java.util.ArrayList;
+import java.util.List;
 
 public class StudentListInArray {
     public static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
@@ -10,10 +11,9 @@ public class StudentListInArray {
     private static final String PASSWORD = "PassSQL1286";
 
 
-    public static ArrayList<String> showStudentList() throws SQLException, ClassNotFoundException {
+    public static List<Student> showStudents() throws SQLException, ClassNotFoundException {
 
-        ArrayList<Student> studentArrayList=new ArrayList<>();
-        ArrayList <String> strings = new ArrayList<>();
+        List<Student> students = new ArrayList<>();
 
         try {
             Class.forName(JDBC_DRIVER);
@@ -26,17 +26,13 @@ public class StudentListInArray {
             ResultSet resultSet = statement.executeQuery("SELECT * FROM student");
 
             while (resultSet.next()) {
-                studentArrayList.add(new Student(resultSet.getInt("id"),
+                students.add(new Student(resultSet.getInt("id"),
                         resultSet.getString("firstName"), resultSet.getString("lastName")));
-            strings.add(resultSet.getInt("id")+"\t"+
-                    resultSet.getString("firstName")+"\t\t"+ resultSet.getString("lastName"));
             }
-            connection.close();
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
-        //return studentArrayList;
-        return strings;
+        return students;
     }
 }
 

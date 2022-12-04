@@ -18,6 +18,6 @@ public class CounterServlet extends HttpServlet {
         req.getSession();
         counter.getAndIncrement();
         PrintWriter writer = resp.getWriter();
-        writer.println("This page has been visited "+counter+" time(s)");
+        writer.println("This page has been visited " + counter + " time(s)");
     }
 }
