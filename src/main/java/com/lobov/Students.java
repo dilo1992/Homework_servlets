@@ -4,7 +4,7 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class StudentListInArray {
+public class Students {
     public static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
     public static final String URL = "jdbc:mysql://localhost:3306/studentList_db";
     private static final String USERNAME = "root";

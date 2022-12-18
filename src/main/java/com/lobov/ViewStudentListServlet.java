@@ -8,7 +8,6 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.SQLException;
-import java.util.ArrayList;
 import java.util.List;
 
 public class ViewStudentListServlet extends HttpServlet {
@@ -19,7 +18,7 @@ public class ViewStudentListServlet extends HttpServlet {
         resp.setContentType("text/html");
         PrintWriter writer = resp.getWriter();
         try {
-            List<Student> student = StudentListInArray.showStudents();
+            List<Student> student = Students.showStudents();
 
             for (int i = 0; i < student.size(); i++) {
                 String s = student.get(i).toString();

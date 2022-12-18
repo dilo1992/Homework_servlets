@@ -8,14 +8,6 @@
                              http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
 
     <display-name>Archetype Created Web Application</display-name>
-    <!--    <context-param>-->
-    <!--        <param-name>login</param-name>-->
-    <!--        <param-value>login</param-value>-->
-    <!--    </context-param>-->
-    <!--    <context-param>-->
-    <!--        <param-name>password</param-name>-->
-    <!--        <param-value>password</param-value>-->
-    <!--    </context-param>-->
 
     <servlet>
         <servlet-name>DateTimeNow</servlet-name>
@@ -72,6 +64,7 @@
     </filter-mapping>
 
     <welcome-file-list>
-        <welcome-file>login.html</welcome-file>
+<!--        <welcome-file>login.html</welcome-file>-->
+        <welcome-file>test.html</welcome-file>
     </welcome-file-list>
 </web-app>
