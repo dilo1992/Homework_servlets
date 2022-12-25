@@ -1,0 +1,43 @@
+<!--может быть-->
+<!--logback.properties-->
+<!--logback.yml-->
+<!--logback.xml-->
+
+<configuration debug="true">
+<!--    вывести в консоль-->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <!-- encoders are assigned the type
+             ch.qos.logback.classic.encoder.PatternLayoutEncoder by default -->
+
+        <!--        сообщение должно быть такого плана-->
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+<!--    записывать в файл-->
+    <property name="LOG_FILE" value="LogFile"/>
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>myfolder/${LOG_FILE}.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- daily rollover -->
+            <fileNamePattern>${LOG_FILE}.%d{yyyy-MM-dd}.gz</fileNamePattern>
+
+            <!-- keep 30 days' worth of history capped at 3GB total size -->
+            <maxHistory>30</maxHistory>
+            <totalSizeCap>3GB</totalSizeCap>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%-4relative [%thread] %-5level %logger{35} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+<!--    тип записываемых сообщений-->
+    <logger name="by.lobov" level="ERROR"/>
+    <logger name="by.lobov" level="DEBUG">
+        <appender-ref ref="FILE"/>
+    </logger>
+
+    <root level="error">
+        <appender-ref ref="STDOUT"/>
+    </root>
+</configuration>

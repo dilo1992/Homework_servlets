@@ -9,32 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9daeed9-e972-4988-9ff2-46675cf87243" name="Changes" comment="Homework for a lesson 23 (with corrects after teacher`s comments)">
-      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lobov/HW25/AddCommentsServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lobov/HW25/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lobov/HW25/CommentsServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lobov/HW25/JDBCFeedbacks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lobov/HW25/ProductsServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/addNewComment.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/comments.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/errorAddComment.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/forDelete/comments1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/forDelete/comments2.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/forDelete/feedbacks.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/forDelete/products_arso_beton.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/forDelete/testForForms.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/products.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/myJs_HW25.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/style_HW25.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/successAddComment.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+    <list default="true" id="e9daeed9-e972-4988-9ff2-46675cf87243" name="Changes" comment="Homework for a lesson 25">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lobov/HW33/testing/CustomFieldException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lobov/HW33/testing/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lobov/HW33/testing/UsersService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/by/lobov/testing/UsersServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lobov/StudentListInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lobov/Students.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lobov/ViewStudentListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lobov/ViewStudentListServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +73,7 @@
     "WebServerToolWindowFactoryState": "false",
     "database.data.extractors.current.export.id": "Comma-separated (CSV)_id",
     "database.data.extractors.current.id": "Comma-separated (CSV)_id",
-    "last_opened_file_path": "/Users/dmitrylobov/Documents/TeachMeSkills/Projects/IdeaProjects/TestSevletOnMac/untitled/src/main/webapp",
+    "last_opened_file_path": "/Users/dmitrylobov/Documents/TeachMeSkills/Projects/IdeaProjects/TestSevletOnMac/untitled/src",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -112,9 +94,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/lobov/HW33/testing" />
       <recent name="$PROJECT_DIR$/src/main/webapp" />
       <recent name="$PROJECT_DIR$/src/main/HW23" />
-      <recent name="$PROJECT_DIR$/target/classes/main" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp/forDelete" />
@@ -127,7 +111,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 10.1.1">
+  <component name="RunManager" selected="JUnit.UsersServiceTest">
     <configuration name="JDBCFeedbacks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lobov.HW25.JDBCFeedbacks" />
       <module name="untitled" />
@@ -150,6 +134,21 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsersServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.lobov.testing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.lobov.testing" />
+      <option name="MAIN_CLASS_NAME" value="by.lobov.testing.UsersServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -247,6 +246,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UsersServiceTest" />
         <item itemvalue="Application.JDBCFeedbacks" />
         <item itemvalue="Application.TestMain" />
       </list>
@@ -278,6 +278,7 @@
       <workItem from="1670533578152" duration="46512000" />
       <workItem from="1671363493608" duration="3456000" />
       <workItem from="1671369341031" duration="6443000" />
+      <workItem from="1671994188547" duration="438000" />
     </task>
     <task id="LOCAL-00001" summary="Homework for a lesson 22">
       <created>1667079052886</created>
