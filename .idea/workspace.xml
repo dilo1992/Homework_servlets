@@ -9,14 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9daeed9-e972-4988-9ff2-46675cf87243" name="Changes" comment="Homework for a lesson 25">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lobov/HW33/testing/CustomFieldException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lobov/HW33/testing/Users.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lobov/HW33/testing/UsersService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/by/lobov/testing/UsersServiceTest.java" afterDir="false" />
+    <list default="true" id="e9daeed9-e972-4988-9ff2-46675cf87243" name="Changes" comment="Homework for a lesson 33">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lobov/HW34/JDBCHW34.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,9 +24,9 @@
       <list>
         <option value="CSS File" />
         <option value="JavaScript File" />
-        <option value="Class" />
         <option value="HTML File" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -111,13 +107,26 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UsersServiceTest">
+  <component name="RunManager" selected="Application.JDBCHW34">
     <configuration name="JDBCFeedbacks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lobov.HW25.JDBCFeedbacks" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.lobov.HW25.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JDBCHW34" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lobov.HW34.JDBCHW34" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lobov.HW34.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -246,6 +255,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JDBCHW34" />
         <item itemvalue="JUnit.UsersServiceTest" />
         <item itemvalue="Application.JDBCFeedbacks" />
         <item itemvalue="Application.TestMain" />
@@ -278,7 +288,7 @@
       <workItem from="1670533578152" duration="46512000" />
       <workItem from="1671363493608" duration="3456000" />
       <workItem from="1671369341031" duration="6443000" />
-      <workItem from="1671994188547" duration="438000" />
+      <workItem from="1671994188547" duration="6649000" />
     </task>
     <task id="LOCAL-00001" summary="Homework for a lesson 22">
       <created>1667079052886</created>
@@ -322,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670151908200</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Homework for a lesson 33">
+      <created>1671994664370</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1671994664370</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -344,7 +361,8 @@
     <MESSAGE value="Homework for a lesson 23 (in progress)" />
     <MESSAGE value="Homework for a lesson 24" />
     <MESSAGE value="Homework for a lesson 23 (with corrects after teacher`s comments)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework for a lesson 23 (with corrects after teacher`s comments)" />
+    <MESSAGE value="Homework for a lesson 33" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework for a lesson 33" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
