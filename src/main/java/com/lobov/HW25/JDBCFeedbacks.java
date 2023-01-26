@@ -79,7 +79,7 @@ public class JDBCFeedbacks {
     }
 
     private static void initParamForConnectionToSQL() {
-        try (FileReader fileReader = new FileReader("/Users/dmitrylobov/Documents/TeachMeSkills/Lesson_25/File with login and pass for the database HW25/For a database HW25.txt")) {
+        try (FileReader fileReader = new FileReader("/Users/dmitrylobov/Documents/TeachMeSkills/Lesson_25 Bootstrap/File with login and pass for the database HW25/For a database HW25.txt")) {
             Scanner scanner = new Scanner(fileReader);
             List<String> paramForAccessDb = new ArrayList<>();
             while (scanner.hasNextLine()) {

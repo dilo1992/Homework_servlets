@@ -17,10 +17,10 @@ public class LoginServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         resp.setContentType("text/html");
-        HttpSession session=req.getSession();
+        HttpSession session = req.getSession();
         String login = req.getParameter("login");
         String password = req.getParameter("password");
-        if (login.equals(ValidLogin) && password.equals(ValidPassword)) {
+        if (ValidLogin.equals(login) && ValidPassword.equals(password)) {
             session.setAttribute("login", login);
         }
         resp.sendRedirect("/success.html");
